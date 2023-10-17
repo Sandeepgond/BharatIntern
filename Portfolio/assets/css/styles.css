@@ -735,6 +735,7 @@ cursor:pointer;
 }
 
 /*=============== CONTACT ===============*/
+Box__button
 #contact{
  flex-direction: column;
 }
@@ -1339,7 +1340,7 @@ cursor:pointer;
 .Box__button{
   margin-top: 15px;
   display: flex;
-  gap: 110px;
+  justify-content: space-between;
   /* border: 1px solid red; */
 }
 
@@ -1396,8 +1397,6 @@ cursor:pointer;
   width: 100px;
   
 }
-
-
 
 /* **********statastics*********** */
 
